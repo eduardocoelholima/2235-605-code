@@ -1,4 +1,4 @@
-//package exam1; //2
+package previous_exams.exam1_2225; //2
 
 public class StringLiterals {
     public static String getString() {

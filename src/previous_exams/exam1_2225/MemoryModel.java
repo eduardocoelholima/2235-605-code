@@ -1,4 +1,4 @@
-//package exam1; //1
+package previous_exams.exam1_2225; //1
 
 public class MemoryModel {
 

@@ -1,4 +1,4 @@
-//package exam1; //3
+package previous_exams.exam1_2225; //3
 
 interface Contract {
     String scream();

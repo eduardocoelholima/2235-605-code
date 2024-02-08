@@ -1,4 +1,4 @@
-//package exam1; //4
+package previous_exams.exam1_2225; //4
 
 public class Inheritance extends InheritanceParent {
     private int counter;
