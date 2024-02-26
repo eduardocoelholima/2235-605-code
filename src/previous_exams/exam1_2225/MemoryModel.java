@@ -3,7 +3,7 @@ package previous_exams.exam1_2225; //1
 public class MemoryModel {
 
     int o = 0;
-    MemoryModel(int o) { o = this.o; }
+    MemoryModel(int o) { this.o = o; }
 
     public MemoryModel change(MemoryModel o) {
         this.o = o.o;

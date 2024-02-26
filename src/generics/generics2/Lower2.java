@@ -38,13 +38,20 @@ public class Lower2 {
         //upper bounds in variables (advanced)
 //        https://docs.oracle.com/javase/tutorial/java/generics/wildcardGuidelines.html
 //        https://docs.oracle.com/javase/tutorial/java/generics/subtyping.html
+
+        // unbounded variable types (java allows them, but you should not use it)
         List<? extends B> list2 = new ArrayList<B>();
-//        list2.add( new B() ); // curiously, java does not see a B instance as a fit candidate, why is that?
-        // this is because java will consider the upper-bounded type parameter as a different type that the regular
-        // type parameter, so <?extendsB> does not match <B>
+//        list2.add( new B() ); // curiously, java does not see a B instance as a fit candidate!
+        // that's because the compiler type capture can not determine the type here
+        // dont use unbounded wildcard for local variable types, compiler will not capture the type B in this case.
+
+        // possible fix: bound a type to a new variable type, e.g.
+        List<B> ll = (List<B>) list2;
+        ll.add(new B());
+
         List<B> lb = new ArrayList<>();
         List<? extends A2> la = lb;
-//        la.add(new A());  // compile-time error
+//        la.add(new A2());  // compile-time error, same problem as before
 
     }
 

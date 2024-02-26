@@ -1,5 +1,7 @@
 package generics.generics2;
 
+// inheritance: area ->  square -> cube -> brick
+
 import java.util.LinkedList;
 import java.util.List;
 public class UpperBoundExample<T extends Cube> {

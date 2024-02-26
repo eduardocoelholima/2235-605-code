@@ -1,3 +1,7 @@
+// demonstrate the use of an unchecked cast
+// in this case we can see the warning with the -Xlint javac option
+// also notice that in practice during runtime T will become Object
+
 package classes.generics;
 
 import java.lang.reflect.Array;

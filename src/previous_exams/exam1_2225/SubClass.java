@@ -1,4 +1,4 @@
-package exam1.original; //5
+package previous_exams.exam1_2225; //5
 
 public class SubClass extends SuperClass {
 

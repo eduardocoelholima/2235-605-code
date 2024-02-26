@@ -26,6 +26,5 @@ public class Strings {
         System.out.println("" + ( stringD.equals( 1 + "2" ) ) ); //6
         System.out.println( stringC == stringF); //7
         System.out.println("" + ( "1" + "2" == "12")  ); //8
-
     }
 }
