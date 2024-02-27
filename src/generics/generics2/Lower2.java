@@ -20,7 +20,8 @@ public class Lower2 {
         List<? super B> list = new ArrayList<B>();
         list.add( new B() );
         list.add( new C() ); //will implicitly upcast, lower bounds does not apply
-//        list.add( new A2() ); //can not downcast
+//        list.add( new B() ); //can not downcast
+        // curiously, if you set the bounds to ?
 
         //lower bounds in methods
         Lower2.lowerCheck(new ArrayList<Number>()); //ok, number is parent of Integer
