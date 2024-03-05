@@ -47,7 +47,8 @@ Caught ArrayIndexOutOfBoundsException in main
 		try {
 			new CatchOrderFinally2().anExeption2();
 		} catch ( Exception e )	{
-			System.out.println("Caught ArrayIndexOutOfBoundsException in main");
+//			System.out.println("Caught ArrayIndexOutOfBoundsException in main");
+			System.out.println(e);
 		}
 	}
 }
