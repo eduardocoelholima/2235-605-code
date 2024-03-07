@@ -11,7 +11,7 @@ public class Person2 {
     String name;
     int age;
 
-    public Person2(String name, int age) {
+    public Person2(String name, int age) throws IllegalArgumentException {
         if (age < 0) {
             throw new IllegalArgumentException("Can't have negative age!");
         }

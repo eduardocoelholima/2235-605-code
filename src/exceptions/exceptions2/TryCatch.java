@@ -13,14 +13,18 @@ public class TryCatch {
 			return i;		
 		} catch (Exception e) {
 			e.printStackTrace();
+			System.out.println(1);
 		} finally {
 			int x = 1/0;
+			System.out.println(2);
 			++i;
 		}
 	} catch (Exception e) {
 		int x = 1/0;
 		e.printStackTrace();
+		System.out.println(3);
 	} finally {
+		System.out.println(4);
 		return ++i;
 	}
   }

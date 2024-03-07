@@ -22,7 +22,7 @@ public class Excep_2 {
             } catch (NullPointerException e) {
                 e.printStackTrace();
             } catch (Exception e) {
-//                System.out.println(e.getMessage());
+                System.out.println(e.getMessage());
             }
             System.out.println("hello");
         }
