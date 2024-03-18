@@ -25,10 +25,10 @@ public class TryCatch {
 		System.out.println(3);
 	} finally {
 		System.out.println(4);
-		return ++i;
+		return ++i; // Danger, Will Robinson: return in the finally-block bypass the uncaught exception
 	}
   }
   public static void main(String[] args) {
 	System.out.println("Rvalue " + new TryCatch().tryCatchFinally() );
-  }
+ }
 }
