@@ -17,8 +17,8 @@ public class Finally_5 {
 				System.out.println("" + intArray[1]);
 				System.out.println("Exception 2 ");
 			}
-//		} catch(Exception e) {
-//			System.out.println("Exception 3 ");
+		} catch(Exception e) {
+			System.out.println("Exception 3 ");
 		} finally {
 			System.out.println("finally 2 ");
 		}
