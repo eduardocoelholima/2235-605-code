@@ -37,6 +37,9 @@ public class Serialization implements Serializable {
 
 // 3. Why is the value "0" printed in the first println() call?
 
+// It is a static field initialized by the class when the program runs,
+// not part of the serialization/deserialization
+
 //4. Is is allowed by java syntax to assign an Integer instance to an Object variable,
 //    as you see in the initialization of the 'value' field?
 

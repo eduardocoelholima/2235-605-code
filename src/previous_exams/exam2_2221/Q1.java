@@ -32,7 +32,7 @@ public class Q1<T extends A> {
 // 2a. For all 4 commented lines, which ones will prevent compilation?
 
 //1st,2nd compile
-//3re,4th does not
+//3rd,4th does not (lower bound is not observed)
 
 // 2b. For each line commented line, explain why it will/will not prevent compilation.
 

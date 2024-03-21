@@ -26,7 +26,7 @@ public class Q3 {
 
 // 1. What will be the output of this program?
 
-//Exception 1
+//Exception 3
 //finally 2
 
 // 2. For all lines that are not executed, explain the reason for that.

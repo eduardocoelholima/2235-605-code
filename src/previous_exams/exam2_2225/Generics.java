@@ -19,9 +19,13 @@ public class Generics<T> {
 
 
 // 1. What is the output of this program?
+//nothing here
+//nothing there
 
 // 2. Explain in detail if a type checking is done in the line marked with the in-line comment "1".
+// The <? super String> in a variable requires a String or superclass to be
+// the type parameter, this is checked at compile time
 
 // 3. Is the line marked with the in-line comment "2" valid java syntax? Is there any problem with this line?
-
+// yes
 

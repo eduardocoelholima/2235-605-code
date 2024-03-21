@@ -25,8 +25,11 @@ public class Exceptions {
 
 
 	public static void main (String[] args) throws Exception {
-		try{ new Exceptions().run().runAndThrows(); }
-		catch (Exception e) {} }
+		try{
+//			new Exceptions().run();
+			new Exceptions().runAndThrows(); }
+		catch (Exception e) {}
+	}
 }
 
 // 1. What will be the output of this program?
@@ -38,4 +41,5 @@ public class Exceptions {
 //2. If the commented line is uncommented, what will happen? Explain.
 
 // An uncaught exception would halt the execution of the program (IndexOutOfBounds)
+// Program will finish gracefully
 

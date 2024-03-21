@@ -32,7 +32,11 @@ public class CollectionClass<T> {
 }
 
 // 1. Between the two lines of code marked with in-line comments "1" and "2", which one is faster? Why?
+// Arraylist will be slower (O(n) vs O(1))
 
 // 2. Between the two lines of code marked with in-line comments "3" and "4", which one is faster? Why?
+// countWithMap will be updating the counts, while countWithList, just iterates over elements in a and b and adds them.
+// Both will have O(n) time complexity.
 
 // 3. Explain what the line marked with in-line comment "5" is performing.
+// Initializing/updating map with counts(value) of the keys that are the elements from collection 'a'

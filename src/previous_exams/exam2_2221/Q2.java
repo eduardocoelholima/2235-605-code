@@ -17,4 +17,4 @@ public class Q2<T> {
 
 // 2. If the commented line is uncommented, will this code compile? Why?
 
-//Q1 has an type parameter with an upper bound of A, so an Object instance will not be a valid type.
+//Q1 (previous question) has an type parameter with an upper bound of A, so an Object instance will not be a valid type.
