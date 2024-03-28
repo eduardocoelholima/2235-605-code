@@ -31,6 +31,6 @@ public class Q3 {
 
 // 2. For all lines that are not executed, explain the reason for that.
 
-//1st (inner most) catch is executed due to an out-of-bounds index used in an array
+//The outer-most catch block is executed due to an out-of-bounds index used in an array
 //other catch blocks will never execute
 //single finally block is executed
