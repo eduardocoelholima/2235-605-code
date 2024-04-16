@@ -40,6 +40,7 @@ public class ButtonsDemo extends Application {
         // when the first button is pushed, change the label to indicate it
         first.setOnAction((event) -> {
            label.setText("Last pressed: First");
+            System.out.println("FIRST");
         });
 
         // when the second button is pushed, change the label to indicate it
