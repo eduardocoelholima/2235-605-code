@@ -35,4 +35,12 @@ public class Deadlock extends Thread {
 
 // Answer the questions.
 //1 - What are the possible outputs of this program?
+
+//0 1 0 1 0 1
+//0 1 1 0 1 0
+//1 0 0 1 1 0
+//1 0 1 0 0 1
+
 //2 - Will this program ever run into a deadlock? Why?
+
+//No, because when a thread acquire the lock a, lock b is always available.

@@ -5,8 +5,7 @@ public class XXX extends Thread	{
 	private String info;
 	static Object o = new Object();
 	static boolean oneIsRunning = false; // is static important?
-					     // es wird nur ein
-					     // Objekt erzeugt
+
 	public XXX (String info) {
 		this.info    = info;
 	}

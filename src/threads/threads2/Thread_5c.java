@@ -23,11 +23,9 @@ public class Thread_5c extends Thread    {
                 System.err.println(info + ": exit run");
            }
         }
-
         public void run () {
                 inProtected();
         }
-
         public static void main (String args []) {
                 Thread_5c aT5_0 = new Thread_5c(new Vector(), "first");
                 aT5_0.start();

@@ -13,7 +13,6 @@ public class Thread_5e extends Thread    {
     public void run () {
         if ( id == 0 )  {
                 new Thread_5e(1).start();
-	
                 new Thread_5e(2).start();
                 return;
         }

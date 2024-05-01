@@ -55,6 +55,17 @@ public class DropTest {
 }
 
 // 1. How many producer threads will be created?
+
+// 4
+
 // 2. How many consumer threads will be created?
+
+// 4
+
 // 3. How many messages can be stored in a Drop instance?
+
+// 10
+
 // 4. Which object(s) is(are) acting as lock(s)/monitor(s) in this program?
+
+// The Drop instance
