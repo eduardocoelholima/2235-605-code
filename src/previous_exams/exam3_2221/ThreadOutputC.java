@@ -24,5 +24,10 @@ public class ThreadOutputC extends Thread {
     }
 
 // Answer the questions.
-//1 - What are the expected outputs? (If there is more than one possible output, mention all possible alls)
+//1 - What are the expected outputs? (If there is more than one possible output, mention
+// all possible ones)
+
+
+
 //2 - Will this program ever run into a deadlock? Why?
+

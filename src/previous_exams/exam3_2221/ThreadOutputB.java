@@ -25,5 +25,15 @@ public class ThreadOutputB extends Thread {
 }
 
 // Answer the questions.
-// 1 - Are the threads always synchronized on the same objects? Explain. Mention all objects that work as locks/monitors.
+// 1 - Are the threads always synchronized on the same objects? Explain. Mention all
+// objects that work as locks/monitors.
+
+//Not always. 1. The lock variable: second thread constructor might run (on main thread) before or after
+// the first thread runs. 2. The static method synchronization will always be synchronized.
+
 // 2 - Can the main thread finish before thread 2 finishes?
+
+// Yes. The nested synchronization here does not impact the order in which a thread is able to finish,
+// After the first lock is acquired, the second lock (the static method lock) will always be able to
+// be acquired.
+
