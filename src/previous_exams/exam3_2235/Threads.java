@@ -26,7 +26,12 @@ public class Threads extends Thread {
 // Answer the questions.
 // 1 - In this program, is an IllegalMonitorStateException possible? Why?
 
+// no, the lock is updated but always reference the same object after the first
+// update by the constructor.
+
 // 2 - When does an IllegalMonitorStateException happens, in any java program?
+
+// when wait/notify/all is called on a different object wrt the lock used.
 
 // 3 - What are the possible outputs of this program?
 
